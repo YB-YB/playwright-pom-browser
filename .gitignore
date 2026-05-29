@@ -1,0 +1,21 @@
+# Python
+__pycache__/
+*.pyc
+*.pyo
+.venv/
+.pytest*
+
+# 浏览器自动化产物
+screenshots/
+auth.json
+downloads/
+
+# IDE
+.vscode/
+.idea/
+.claude/
+# OS
+.DS_Store
+Thumbs.db
+*.png
+*.zip
