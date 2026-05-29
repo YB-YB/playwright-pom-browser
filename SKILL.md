@@ -1,6 +1,6 @@
 ---
 name: playwright-pom-browser
-description: 当用户需要用 Python + Playwright 控制浏览器完成网页操作、抓取、填表、截图、登录态复用、文件上传下载、网络拦截或端到端验证时使用。支持一次性脚本和 Page Object 可维护结构。
+description: Use when the user needs Python + Playwright browser automation for scripted web actions, scraping JavaScript-rendered pages, form filling, screenshots, login state reuse, file upload/download, network interception, or end-to-end validation. Supports one-off scripts and maintainable Page Object structures.
 runtime: python>=3.10
 ---
 
