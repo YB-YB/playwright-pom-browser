@@ -69,10 +69,12 @@ python scripts/setup.py --browser chromium --venv /path/to/browser-task/.venv
 
 支持的参数：
 - `--browser` — 选择浏览器类型（chromium / firefox / webkit）
-- `--install-all` — 安装所有浏览器
+- `--all` — 安装所有浏览器
 - `--venv` — 指定虚拟环境路径
 - `--recreate-venv` — 重建已有虚拟环境
-- `--check-only` — 仅检查环境状态，不执行安装
+- `--check` — 仅检查环境状态，不执行安装
+- `--no-venv` — 安装到当前 Python 环境，不创建隔离虚拟环境
+- `--with-deps` — Linux 环境安装 Playwright 系统依赖
 
 ## 使用方法
 
@@ -178,6 +180,7 @@ playwright-pom-browser/
 │   └── test_browser_detect.py
 ├── references/                 # 参考文档
 │   ├── browser_automation.md
+│   ├── installation.md
 │   └── form_automation_methodology.md
 └── screenshots/                # 截图输出目录（gitignore）
 ```
